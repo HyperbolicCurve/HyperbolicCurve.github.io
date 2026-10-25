@@ -1,6 +1,6 @@
 ---
 layout: page
-title: honors
+title: Honors
 permalink: /honors/
 nav: true
 nav_order: 2
