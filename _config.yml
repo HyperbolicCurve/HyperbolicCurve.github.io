@@ -1,13 +1,13 @@
 title: blank
 first_name: Xianjin
-middle_name: ""
+middle_name: null
 last_name: Wu
 contact_note: The best way to reach me is by email.
 description: Xianjin Wu — 3D vision, embodied AI, and machine learning systems at Huazhong University of Science and Technology.
 footer_text: Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
 keywords: Xianjin Wu, HUST, 3D vision, embodied AI, MLSys
 lang: en
-icon: ∿
+icon: asuka.png
 apple_touch_icon: null
 url: https://hyperboliccurve.github.io
 baseurl: ""

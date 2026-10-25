@@ -1,6 +1,6 @@
 ---
 layout: page
-title: experience
+title: Industrial Experience
 permalink: /experience/
 nav: true
 nav_order: 3

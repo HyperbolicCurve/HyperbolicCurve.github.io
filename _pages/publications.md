@@ -12,3 +12,5 @@ An asterisk (*) denotes equal contribution. Manuscripts and preprints are labele
 <div class="publications">
 {% bibliography %}
 </div>
+
+<script defer src="{{ '/assets/js/github-stars.js' | relative_url }}"></script>

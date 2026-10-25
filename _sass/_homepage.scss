@@ -102,6 +102,66 @@ html[data-theme="dark"] .university-mark img {
   color: var(--global-text-color-light);
 }
 
+.navbar .homepage-brand {
+  font-size: 1.05rem;
+  white-space: nowrap;
+}
+
+.navbar .nav-link {
+  font-size: 0.95rem;
+}
+
+.education-entry {
+  grid-template-columns: 180px minmax(0, 1fr);
+  align-items: center;
+  .university-mark img {
+    width: 180px;
+    max-width: 100%;
+  }
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.publications .links a.github-code {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  vertical-align: middle;
+  .repository-stars {
+    border-left: 1px solid var(--global-divider-color);
+    padding-left: 0.4rem;
+  }
+}
+
+.organizer-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.65rem;
+  .organizer-label {
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+  }
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: #fff;
+    border-radius: 4px;
+    padding: 6px 9px;
+    color: #111;
+    font-size: 0.8rem;
+    height: 38px;
+  }
+  img {
+    width: auto;
+    max-width: 100px;
+    max-height: 26px;
+  }
+}
+
 @media (max-width: 575px) {
   .profile {
     width: 115px;
@@ -127,4 +187,17 @@ html[data-theme="dark"] .university-mark img {
     display: block;
     margin: 0.3rem 0 0;
   }
+  .education-entry {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.8rem;
+  }
+  .education-entry .university-mark img {
+    width: 200px;
+  }
+}
+
+.organizer-logos img[alt="NVIDIA"] {
+  width: 100px;
+  height: 19px;
+  filter: brightness(0);
 }

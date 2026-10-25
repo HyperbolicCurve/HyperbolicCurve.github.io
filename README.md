@@ -19,7 +19,9 @@ Open http://127.0.0.1:4000/.
 - Publications and paper links: `_bibliography/papers.bib`
 - Awards (shared by the homepage and honors page): `_includes/honors.md`
 - Experience (shared by the homepage and experience page): `_includes/experience.liquid`
+- Education: `_includes/education.liquid`
 - Academic service: `_pages/about.md`
+- GitHub star fallback counts: `_data/github_repositories.yml` (refreshed in the browser from GitHub)
 - Open-source projects: `_pages/projects.md`
 - Social links: `_data/socials.yml`
 - News: `_news/`
@@ -44,4 +46,4 @@ bundle exec al-folio upgrade audit --no-fail
 bundle exec jekyll build
 ```
 
-Two local overrides are tracked in `.al-folio-overrides.yml`: `_includes/news.liquid` displays month-level news dates, and `assets/css/main.scss` loads the site-specific homepage styles after the theme styles. The starter's sample publications, blog posts, placeholder CV, tracking configuration, and unrelated demo pages are not included.
+Four local overrides are tracked in `.al-folio-overrides.yml`: `_includes/news.liquid` displays month-level news dates; `assets/css/main.scss` loads the site-specific styles; `_includes/header.liquid` adds the homepage brand; and `_layouts/bib.liquid` adds GitHub icons and repository star counts to code links. The starter's sample publications, blog posts, placeholder CV, tracking configuration, and unrelated demo pages are not included.

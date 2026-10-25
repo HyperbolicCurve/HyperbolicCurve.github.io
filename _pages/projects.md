@@ -2,7 +2,7 @@
 layout: page
 title: open source
 permalink: /projects/
-nav: true
+nav: false
 nav_order: 4
 description: Research code and resources.
 ---

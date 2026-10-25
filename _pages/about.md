@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: >
-  <a class="university-mark" href="https://english.hust.edu.cn/" aria-label="Huazhong University of Science and Technology"><img src="/assets/img/logos/hust.png" alt="Huazhong University of Science and Technology"></a>
+subtitle: ""
 profile:
   align: right
   image: portrait.jpg
@@ -28,8 +27,13 @@ I am currently a research intern at **DiDi Voyager**, and previously interned at
 
 [Email](mailto:wuxianjin633@gmail.com) · [Google Scholar](https://scholar.google.com/citations?user=_xCbYaEAAAAJ) · [GitHub](https://github.com/HyperbolicCurve) · [ORCID](https://orcid.org/0009-0008-2111-6535)
 
+<section class="home-section" id="news">
+  <h2>News</h2>
+  {% include news.liquid limit=true %}
+</section>
+
 <section class="home-section" id="publications">
-  <h2>Selected publications</h2>
+  <h2>Selected Publications</h2>
   {% include selected_papers.liquid %}
 </section>
 
@@ -40,8 +44,13 @@ I am currently a research intern at **DiDi Voyager**, and previously interned at
 </section>
 
 <section class="home-section" id="experience">
-  <h2>Experience</h2>
+  <h2>Industrial Experience</h2>
   {% include experience.liquid %}
+</section>
+
+<section class="home-section" id="education">
+  <h2>Education</h2>
+  {% include education.liquid %}
 </section>
 
 <section class="home-section" id="service">
@@ -49,7 +58,4 @@ I am currently a research intern at **DiDi Voyager**, and previously interned at
   <p><strong>Reviewer:</strong> Pattern Recognition (PR), European Conference on Computer Vision (ECCV), and International Conference on Learning Representations (ICLR).</p>
 </section>
 
-<section class="home-section" id="news">
-  <h2>News</h2>
-  {% include news.liquid limit=true %}
-</section>
+<script defer src="{{ '/assets/js/github-stars.js' | relative_url }}"></script>
