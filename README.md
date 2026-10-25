@@ -17,12 +17,15 @@ Open http://127.0.0.1:4000/.
 
 - Biography: `_pages/about.md`
 - Publications and paper links: `_bibliography/papers.bib`
-- Awards: `_pages/honors.md`
-- Experience: `_pages/experience.md`
+- Awards (shared by the homepage and honors page): `_includes/honors.md`
+- Experience (shared by the homepage and experience page): `_includes/experience.liquid`
+- Academic service: `_pages/about.md`
 - Open-source projects: `_pages/projects.md`
 - Social links: `_data/socials.yml`
 - News: `_news/`
-- Portrait and paper figures: `assets/img/`
+- Portrait, paper figures, and organization logos: `assets/img/`
+- Original award certificates: `assets/certificates/`
+- Homepage and publication sizing: `_sass/_homepage.scss`
 
 RePIC links to the author-supplied OpenReview page and PDF, and is clearly labeled under review. Add its arXiv ID to the BibTeX entry when the preprint is released.
 
@@ -41,4 +44,4 @@ bundle exec al-folio upgrade audit --no-fail
 bundle exec jekyll build
 ```
 
-One local include override, `_includes/news.liquid`, displays month-level news dates without implying an exact event day. It is tracked in `.al-folio-overrides.yml`. The starter's sample publications, blog posts, placeholder CV, tracking configuration, and unrelated demo pages are not included.
+Two local overrides are tracked in `.al-folio-overrides.yml`: `_includes/news.liquid` displays month-level news dates, and `assets/css/main.scss` loads the site-specific homepage styles after the theme styles. The starter's sample publications, blog posts, placeholder CV, tracking configuration, and unrelated demo pages are not included.
