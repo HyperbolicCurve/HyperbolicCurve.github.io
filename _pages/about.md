@@ -55,7 +55,7 @@ I am currently a research intern at **DiDi Voyager**, and previously interned at
 
 <section class="home-section" id="service">
   <h2>Academic service</h2>
-  <p><strong>Reviewer:</strong> Pattern Recognition (PR), European Conference on Computer Vision (ECCV), and International Conference on Learning Representations (ICLR).</p>
+  <p><strong>Reviewer:</strong> PR, ECCV, ICLR.</p>
 </section>
 
 <script defer src="{{ '/assets/js/github-stars.js' | relative_url }}"></script>
