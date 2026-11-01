@@ -29,7 +29,7 @@ Open http://127.0.0.1:4000/.
 - Original award certificates: `assets/certificates/`
 - Homepage and publication sizing: `_sass/_homepage.scss`
 
-RePIC links to the author-supplied OpenReview page and PDF, and is clearly labeled under review. Add its arXiv ID to the BibTeX entry when the preprint is released.
+RePIC links to the author-supplied OpenReview page and PDF, and is listed as "arXiv version forthcoming". Add its arXiv ID to the BibTeX entry when the preprint is released.
 
 ## GitHub Pages
 

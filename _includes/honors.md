@@ -12,9 +12,6 @@
 
 ### 2025
 
+- **National Final Gold Award** — [Tianyi Cloud “Xirang Cup” University AI Competition](https://www.ctyun.cn/newsboard/1000041259), Large Model Application Track. [Certificate]({{ '/assets/certificates/tianyi-cloud.png' | relative_url }}). **Prize: RMB 200,000.**
 - **4th Place** — [Global Wheat Full Semantic Segmentation Competition](https://www.global-wheat.com/gwfss.html). [Certificate]({{ '/assets/certificates/gwfss-2025.pdf' | relative_url }}).
 - **Silver Medal · 45 / 943 teams** — [Kaggle Image Matching Challenge](https://www.kaggle.com/competitions/image-matching-challenge-2025). [Certificate]({{ '/assets/certificates/kaggle-imc-2025.png' | relative_url }}).
-
-### 2024
-
-- **National Final Gold Award** — [Tianyi Cloud “Xirang Cup” University AI Competition](https://www.ctyun.cn/newsboard/1000041259), Large Model Application Track. [Certificate]({{ '/assets/certificates/tianyi-cloud.png' | relative_url }}) issued in August 2025. **Prize: RMB 200,000.**
