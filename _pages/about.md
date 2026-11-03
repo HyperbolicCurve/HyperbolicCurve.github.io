@@ -25,7 +25,7 @@ My recent work spans spatial understanding with [VEGA-3D](https://h-embodvis.git
 
 I am currently a research intern at **DiDi Voyager**, and previously interned at **Baidu**.
 
-[Email](mailto:wuxianjin633@gmail.com) · [Google Scholar](https://scholar.google.com/citations?user=_xCbYaEAAAAJ) · [GitHub](https://github.com/HyperbolicCurve) · [ORCID](https://orcid.org/0009-0008-2111-6535)
+[Email](mailto:wuxianjin633@gmail.com) · [CV]({{ '/assets/pdf/Wu_Xianjin_CV.pdf' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=_xCbYaEAAAAJ) · [GitHub](https://github.com/HyperbolicCurve) · [ORCID](https://orcid.org/0009-0008-2111-6535)
 
 <section class="home-section" id="news">
   <h2>News</h2>
@@ -59,3 +59,4 @@ I am currently a research intern at **DiDi Voyager**, and previously interned at
 </section>
 
 <script defer src="{{ '/assets/js/github-stars.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/profile-hover.js' | relative_url }}" data-hover-src="{{ '/assets/img/portrait-anime.jpg' | relative_url }}"></script>
