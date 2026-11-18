@@ -1,0 +1,7 @@
+{%- capture logos -%}
+<span class="organizer-logos">
+  <a href="https://www.robbyant.com/" title="Robbyant (蚂蚁灵波)"><img src="{{ '/assets/img/logos/robbyant.svg' | relative_url }}" alt="Robbyant (蚂蚁灵波)"></a>
+  <a href="https://www.agilex.ai/" title="AgileX Robotics (松灵机器人)"><img src="{{ '/assets/img/logos/agilex.png' | relative_url }}" alt="AgileX Robotics (松灵机器人)"></a>
+</span>
+{%- endcapture -%}
+{{ site.data.awards.robbyant_2026 }} {{ logos | strip_newlines -}}
